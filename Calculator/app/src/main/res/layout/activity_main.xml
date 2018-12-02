@@ -24,19 +24,23 @@
         android:layout_alignEnd="@+id/button4"
         android:layout_alignRight="@+id/button4"
         android:layout_marginTop="94dp"
-        android:text="1" />
+        android:text="1"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/button2"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="73dp"
+        android:layout_width="77dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button1"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
         android:layout_toStartOf="@+id/button3"
         android:layout_toLeftOf="@+id/button3"
-        android:text="2" />
+        android:background="#000000"
+        android:text="2"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button3"
@@ -45,7 +49,9 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button2"
         android:layout_centerHorizontal="true"
-        android:text="3" />
+        android:text="3"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/button4"
@@ -54,18 +60,22 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_toLeftOf="@+id/button2"
-        android:text="4" />
+        android:text="4"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/button5"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="73dp"
+        android:layout_width="76dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/button2"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignBottom="@+id/button4"
         android:layout_marginBottom="0dp"
-        android:text="5" />
+        android:background="#000000"
+        android:text="5"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button6"
@@ -78,7 +88,9 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="0dp"
-        android:text="6" />
+        android:text="6"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/button7"
@@ -87,17 +99,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button4"
         android:layout_toLeftOf="@+id/button2"
-        android:text="7" />
+        android:text="7"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/button8"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="73dp"
+        android:layout_width="78dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button5"
         android:layout_alignStart="@+id/button5"
         android:layout_alignLeft="@+id/button5"
-        android:text="8" />
+        android:background="#000000"
+        android:text="8"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button9"
@@ -107,7 +123,9 @@
         android:layout_below="@+id/button6"
         android:layout_alignStart="@+id/button6"
         android:layout_alignLeft="@+id/button6"
-        android:text="9" />
+        android:text="9"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/buttonAdd"
@@ -117,9 +135,11 @@
         android:layout_alignTop="@+id/button3"
         android:layout_alignEnd="@+id/editText"
         android:layout_alignRight="@+id/editText"
-        android:layout_marginLeft="35dp"
+        android:layout_marginRight="10dp"
         android:layout_toRightOf="@+id/button3"
-        android:text="+" />
+        android:text="+"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/buttonSubtract"
@@ -131,19 +151,26 @@
         android:layout_alignLeft="@+id/buttonAdd"
         android:layout_alignEnd="@+id/buttonAdd"
         android:layout_alignRight="@+id/buttonAdd"
-        android:text="-" />
+        android:text="-"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/buttonProduct"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="wrap_content"
+        android:layout_width="143dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonSubtract"
         android:layout_alignStart="@+id/buttonSubtract"
         android:layout_alignLeft="@+id/buttonSubtract"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="*" />
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="#000000"
+        android:text="*"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/buttonDot"
@@ -152,17 +179,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button7"
         android:layout_toLeftOf="@+id/button2"
-        android:text="." />
+        android:text="."
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/button0"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="73dp"
+        android:layout_width="76dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button8"
         android:layout_alignStart="@+id/button8"
         android:layout_alignLeft="@+id/button8"
-        android:text="0" />
+        android:background="#000000"
+        android:text="0"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/buttonClear"
@@ -172,7 +203,9 @@
         android:layout_below="@+id/button9"
         android:layout_alignStart="@+id/button9"
         android:layout_alignLeft="@+id/button9"
-        android:text="C" />
+        android:text="C"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/buttonDivision"
@@ -184,7 +217,9 @@
         android:layout_alignLeft="@+id/buttonProduct"
         android:layout_alignEnd="@+id/buttonProduct"
         android:layout_alignRight="@+id/buttonProduct"
-        android:text="/" />
+        android:text="/"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/buttonMod"
@@ -196,7 +231,9 @@
         android:layout_alignLeft="@+id/buttonDivision"
         android:layout_alignEnd="@+id/buttonDivision"
         android:layout_alignRight="@+id/buttonDivision"
-        android:text="%" />
+        android:text="%"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
 
     <Button
@@ -204,13 +241,14 @@
         style="@android:style/Widget.Button.Inset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonMod"
+        android:layout_below="@+id/buttonDot"
         android:layout_alignStart="@+id/buttonDot"
         android:layout_alignLeft="@+id/buttonDot"
-        android:layout_alignEnd="@+id/buttonMod"
-        android:layout_alignRight="@+id/buttonMod"
-        android:layout_marginTop="37dp"
-        android:text="=" />
+        android:layout_alignEnd="@+id/buttonClear"
+        android:layout_alignRight="@+id/buttonClear"
+        android:text="="
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
 
 
