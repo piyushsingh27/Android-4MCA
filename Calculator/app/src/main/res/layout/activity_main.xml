@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="#bebebe">
-    
+
     <EditText
         android:id="@+id/editText"
         android:backgroundTint="#000"
@@ -175,19 +175,20 @@
     <Button
         android:id="@+id/buttonDot"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="67dp"
-        android:layout_height="wrap_content"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
         android:layout_below="@+id/button7"
+        android:layout_marginRight="4dp"
         android:layout_toLeftOf="@+id/button2"
-        android:text="."
         android:background="#000000"
-        android:textColor="#ffffff"/>
+        android:text="."
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button0"
         style="@android:style/Widget.Button.Inset"
         android:layout_width="76dp"
-        android:layout_height="wrap_content"
+        android:layout_height="139dp"
         android:layout_below="@+id/button8"
         android:layout_alignStart="@+id/button8"
         android:layout_alignLeft="@+id/button8"
@@ -198,14 +199,14 @@
     <Button
         android:id="@+id/buttonClear"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="76dp"
-        android:layout_height="wrap_content"
+        android:layout_width="75dp"
+        android:layout_height="137dp"
         android:layout_below="@+id/button9"
         android:layout_alignStart="@+id/button9"
         android:layout_alignLeft="@+id/button9"
-        android:text="C"
         android:background="#000000"
-        android:textColor="#ffffff"/>
+        android:text="C"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/buttonDivision"
@@ -224,31 +225,37 @@
     <Button
         android:id="@+id/buttonMod"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="62dp"
         android:layout_below="@+id/buttonDivision"
         android:layout_alignStart="@+id/buttonDivision"
         android:layout_alignLeft="@+id/buttonDivision"
         android:layout_alignEnd="@+id/buttonDivision"
         android:layout_alignRight="@+id/buttonDivision"
-        android:text="%"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
         android:background="#000000"
-        android:textColor="#ffffff"/>
+        android:text="%"
+        android:textColor="#ffffff" />
 
 
     <Button
         android:id="@+id/buttonEqual"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="wrap_content"
+        android:layout_width="228dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonDot"
         android:layout_alignStart="@+id/buttonDot"
         android:layout_alignLeft="@+id/buttonDot"
         android:layout_alignEnd="@+id/buttonClear"
         android:layout_alignRight="@+id/buttonClear"
-        android:text="="
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
         android:background="#000000"
-        android:textColor="#ffffff"/>
+        android:text="="
+        android:textColor="#ffffff" />
 
 
 
