@@ -5,14 +5,24 @@
 
     <item
         android:id="@+id/home"
-        android:icon="@drawable/ic_menu_camera"
+        android:icon="@drawable/ic_home_black_24dp"
         android:title="Home" />
     <item
         android:id="@+id/emailus"
-        android:icon="@drawable/ic_menu_slideshow"
+        android:icon="@drawable/ic_email_black_24dp"
         android:title="Email Us" />
     <item
         android:id="@+id/callus"
-        android:icon="@drawable/ic_menu_manage"
+        android:icon="@drawable/ic_call_black_24dp"
         android:title="Call Us" />
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_directions_black_24dp"
+        android:title="Reach Us"/>
+
+    <item
+        android:id="@+id/web"
+        android:title="Visit Us"
+        android:icon="@drawable/ic_web_black_24dp"/>
 </menu>

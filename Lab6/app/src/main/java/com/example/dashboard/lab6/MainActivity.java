@@ -271,9 +271,20 @@ public class MainActivity extends AppCompatActivity
             }
         } else if (id == R.id.emailus) {
             Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                    "mailto","xyz@gmail.com", null));
+                    "mailto","vinay.m@christuniversity.in", null));
             startActivity(Intent.createChooser(emailIntent, "Send email..."));
 
+        } else if (id == R.id.maps) {
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW);
+            mapIntent.setData(Uri.parse("geo: 12.972442, 77.580643"));
+            Intent chooser = Intent.createChooser(mapIntent, "Launch Maps");
+            startActivity(chooser);
+
+        } else if (id == R.id.web) {
+            String url = "https://christuniversity.in";
+            Intent webIntent = new Intent(Intent.ACTION_VIEW);
+            webIntent.setData(Uri.parse(url));
+            startActivity(webIntent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
