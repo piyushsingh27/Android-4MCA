@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
 
     Button buttonOne, buttonTwo, buttonThree, buttonFour, buttonFive, buttonSix, buttonNB, buttonWide;
 
-    int one = 1, two = 2, three = 3, four = 4, five = 5, six  =6;
+    int one = 1, two = 2, three = 3, four = 4, five = 5, six  = 6;
     int old_runs, new_runs;
     double over_new = 0.1;
     double over_old;

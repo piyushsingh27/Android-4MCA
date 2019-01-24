@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity
         //adding validation to edittexts
         awesomeValidation.addValidation(this, R.id.editTextName, "^[A-Za-z\\s]{1,}[\\.]{0,1}[A-Za-z\\s]{0,}$", R.string.nameerror);
         awesomeValidation.addValidation(this, R.id.editTextEmail, Patterns.EMAIL_ADDRESS, R.string.emailerror);
-        awesomeValidation.addValidation(this, R.id.editTextPassword, "^[A-Za-z\\s]{1,}[\\.]{0,1}[A-Za-z\\s]{0,}$", R.string.passworderror);
+       // awesomeValidation.addValidation(this, R.id.editTextPassword, "^[A-Za-z\\s]{1,}[\\.]{0,1}[A-Za-z\\s]{0,}$", R.string.passworderror);
         awesomeValidation.addValidation(this, R.id.editTextMobile, "^[2-9]{2}[0-9]{8}$", R.string.mobileerror);
 
 
@@ -237,6 +237,18 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this, "Settings selected", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if (id == R.id.contactus) {
+            Toast.makeText(this, "Contacted Us", Toast.LENGTH_SHORT).show();
+            if(isPermissionGranted()){
+                call_action();
+            }
+            return true;
+        }
+        else if (id == R.id.feedback) {
+            Toast.makeText(this, "Feedback selected", Toast.LENGTH_SHORT).show();
             return true;
         }
 

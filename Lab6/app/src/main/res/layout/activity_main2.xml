@@ -11,4 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ty" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long press me"
+        android:layout_marginTop="200dp" android:layout_marginLeft="100dp"/>
 </android.support.constraint.ConstraintLayout>
